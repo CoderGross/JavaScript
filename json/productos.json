@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "nombre": "Dominus",
+      "precio": 10,
+      "imagen": "./assets/dominus.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Fennec",
+      "precio": 20,
+      "imagen": "./assets/fennec.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Masamune",
+      "precio": 30,
+      "imagen": "./assets/masamune.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Nissan Silvia",
+      "precio": 40,
+      "imagen": "./assets/nisan silvia.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Porsche",
+      "precio": 50,
+      "imagen": "./assets/porsche.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Nimbus",
+      "precio": 60,
+      "imagen": "./assets/nimbus.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "Cybertruck",
+      "precio": 10,
+      "imagen": "./assets/cybertruck.webp"
+    },
+    {
+      "id": 8,
+      "nombre": "Rayo",
+      "precio": 20,
+      "imagen": "./assets/rayo.webp"
+    },
+    {
+      "id": 9,
+      "nombre": "Formula 1",
+      "precio": 30,
+      "imagen": "./assets/formula 1.webp"
+    },
+    {
+      "id": 10,
+      "nombre": "Nissan Skyline",
+      "precio": 40,
+      "imagen": "./assets/nisan skyline.webp"
+    },
+    {
+      "id": 11,
+      "nombre": "Takumi",
+      "precio": 50,
+      "imagen": "./assets/takumi.webp"
+    },
+    {
+      "id": 12,
+      "nombre": "Scarab",
+      "precio": 60,
+      "imagen": "./assets/scarab.webp"
+    }
+  ]
+  

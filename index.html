@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="./assets/icono.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‖ MarketThundra ‖</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary colornav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> ‖ MarketThundra ‖ </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrito">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proximamente!</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tradeos y Mas!
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Treadeos</a></li>
+                            <li><a class="dropdown-item" href="#">Comunidad</a></li>
+                            <li><a class="dropdown-item" href="#">Soporte</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" id="search-input" placeholder="Buscar productos..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="button" onclick="buscarProductos()">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main id="main">
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <div id="producto-lista" class="producto-lista">
+                <div class="producto">
+                    <img class="cards" src="./assets/dominus.webp" alt="Domunus">
+                    <h3>Dominus</h3>
+                    <p>Precio: $30</p>
+                    <button onclick="addToCart(1)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/fennec.webp" alt="Fennec">
+                    <h3>Fennec</h3>
+                    <p>Precio: $50</p>
+                    <button onclick="addToCart(2)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/masamune.webp" alt="Masamune">
+                    <h3>Masamune</h3>
+                    <p>Precio: $20</p>
+                    <button onclick="addToCart(3)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/nisan silvia.webp" alt="Nisan">
+                    <h3>Nisan Silvia</h3>
+                    <p>Precio: $35</p>
+                    <button onclick="addToCart(4)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/porsche.webp" alt="Porsche">
+                    <h3>Porsche</h3>
+                    <p>Precio: $25</p>
+                    <button onclick="addToCart(5)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/nimbus.webp" alt="Nimbus">
+                    <h3>Nimbus</h3>
+                    <p>Precio: $15</p>
+                    <button onclick="addToCart(6)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/cybertruck.webp" alt="Cybertruck">
+                    <h3>CyberTruck</h3>
+                    <p>Precio: $60</p>
+                    <button onclick="addToCart(7)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/rayo.webp" alt="Rayo">
+                    <h3>Rayo Mc Queen</h3>
+                    <p>Precio: $70</p>
+                    <button onclick="addToCart(8)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/formula 1.webp" alt="Formula 1">
+                    <h3>Formula 1</h3>
+                    <p>Precio: $15</p>
+                    <button onclick="addToCart(9)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/nisan skyline.webp" alt="Nisan Skyline">
+                    <h3>Nisan Skyline</h3>
+                    <p>Precio: $40</p>
+                    <button onclick="addToCart(10)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/takumi.webp" alt="Takumi">
+                    <h3>Takumi</h3>
+                    <p>Precio: $20</p>
+                    <button onclick="addToCart(11)">Añadir al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img class="cards" src="./assets/scarab.webp" alt="Scarab">
+                    <h3>Scarab</h3>
+                    <p>Precio: $15</p>
+                    <button onclick="addToCart(12)">Añadir al Carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="carrito"></section>
+        <h2>Carrito</h2>
+        <div id="cart-container">
+            <ul id="cart-items"></ul>
+            <div id="cart-summary">
+                <button id="clear-cart">Vaciar Carrito</button>
+                <button id="checkout">Realizar Compra</button>
+                <p id="cart-total">Total: $0.00</p>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 ‖ MarketThundra ‖</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
